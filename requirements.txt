@@ -1,0 +1,4 @@
+python-docx>=1.0
+pypdf>=4.0
+# pdfminer.six 为 PDF 提取的备选依赖，extract_transcript.py 会优先用 pypdf
+# pypdf>=4.0 已足够；如 pypdf 不可用可改为 pdfminer.six>=20221105
